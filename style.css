@@ -1,0 +1,258 @@
+body {
+    background-color: rgba(128, 128, 128, 0.507);
+}
+
+/* nav bar styles */
+
+.navbar-expand-lg {
+    margin-bottom: 5rem;
+}
+
+.navbar-nav.me-auto.my-2.my-lg-0.navbar-nav-scroll {
+    margin-left: auto !important;
+    margin-right: 1rem !important;
+}
+
+.navbar-nav-scroll {
+    max-height: none !important;
+}
+
+.btn-outline-success {
+    background-color: #198754;
+    color: white;
+    padding: 0 !important;
+}
+
+.navbar-brand {
+    font-weight: 300;
+    font-size: 25px;
+}
+
+.navbar-brand span {
+    font-weight: 700;
+}
+
+@media (max-width: 991px) {
+    .btn-outline-success {
+        width: 100% !important;
+        background-color: #198754;
+        color: white;
+    }
+    .navbar-dark .navbar-nav .nav-link {
+        text-align: center;
+    }
+    .navbar-expand-lg {
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width: 379px) {
+    .navbar-brand {
+        font-size: 20px;
+        margin-right: 0 !important;
+    }
+}
+
+.loginAtag {
+    color: white !important;
+    text-decoration: none !important;
+    padding: 6px 12px;
+    display: block;
+}
+
+/* hakkimda style */
+
+.hakkimda .container article {
+    display: flex;
+    position: relative;
+    height: 80ch;
+}
+
+@media (max-width: 991px) {
+    .hakkimda .container article {
+        flex-direction: column;
+        height: auto;
+        position: static;
+    }
+    .hakkimda .right_container {
+        position: static !important;
+        width: 100% !important;
+        border-radius: 30px !important;
+        margin-bottom: 1rem;
+    }
+    .hakkimda .left_container {
+        position: static !important;
+        width: 100% !important;
+    }
+}
+
+.hakkimda .right_container {
+    background-color: #444444 !important;
+    position: absolute;
+    z-index: 9;
+    width: 35%;
+    border-radius: 30px 0 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 4rem;
+    flex-direction: column;
+    box-shadow: -5px 0px 10px rgba(0, 0, 0, 0.378);
+    min-height: 100%;
+    height: 100%;
+}
+
+.hakkimda .right_container h1 {
+    color: white;
+    font-size: 30px;
+}
+
+@media (max-width: 1399px) {
+    .hakkimda .right_container h1 {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .hakkimda .right_container h1 {
+        font-size: 20px;
+    }
+}
+
+.hakkimda .right_container h5 {
+    color: white;
+    font-weight: 300;
+}
+
+.hakkimda .right_container h1 span {
+    font-weight: 700;
+}
+
+.hakkimda .right_container .img {
+    background-image: url(./images/myImage.jpeg);
+    border-radius: 50%;
+    background-size: 190%;
+    background-position: -89px -46px;
+    width: 250px;
+    height: 250px;
+    border: 20px solid rgba(128, 128, 128, 0.507);
+    margin-bottom: 2rem;
+}
+
+.hakkimda .right_container ul {
+    list-style: none !important;
+    display: flex;
+    padding-left: 0 !important;
+}
+
+.hakkimda .right_container ul li {
+    color: white;
+    margin: 0.5rem;
+}
+
+.hakkimda .right_container ul li a {
+    color: white;
+    font-size: 20px;
+}
+
+.hakkimda .left_container {
+    background-color: #222222 !important;
+    box-shadow: -5px 0px 10px rgba(0, 0, 0, 0.378);
+    width: 67%;
+    min-height: 100%;
+    height: 100%;
+    right: 0;
+    top: 0;
+    position: absolute;
+    z-index: 10;
+    border-radius: 30px;
+    padding: 2rem;
+}
+
+.hakkimda .left_container p {
+    color: white;
+    line-height: 33px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* egitim styles */
+.egitim {
+    margin-top: -2rem;
+}
+
+.egitim .container{
+    display: flex;
+    flex-direction: column;
+}
+
+.egitim .container img {
+    border-radius: 30px;
+    margin: auto;
+    border: 10px solid white;
+    box-shadow: 0 0 10px black;
+}
+
+@media (max-width: 1024px ) {
+    .egitim .container img  {
+        width: 100%;
+        margin-top: 2rem;
+    }
+}
+
+.egitim .container p {
+    font-size: 20px;
+    color: black;
+    margin-top: 2rem;
+    font-weight: 600;
+}
+
+/* sehriim style */
+
+.mySlides {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.text {
+    font-size: 20px;
+    color: black;
+    margin-top: 2rem;
+    font-weight: 400;
+    margin-bottom: 5rem;
+}
+
+/* ilge styles */
+
+.ilge .container {
+    display: flex;
+    align-items: center;
+}
+
+.ilge .container p {
+    font-size: 20px;
+    color: black;
+    margin-top: 2rem;
+    font-weight: 400;
+    margin-bottom: 5rem;
+    margin-left: 2rem;
+}
+
+.ilge .container img {
+    width: 271px;
+    height: 367px;
+    object-fit: cover;
+}
+
+.ilge h1 {
+    background-color: gray;
+    padding: 1rem 0;
+    color: white;
+}
+
+@media (max-width: 1069px) {
+    .ilge .container {
+        flex-direction: column;
+    }
+}
